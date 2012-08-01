@@ -7,7 +7,9 @@ function rgb2hex(r,g,b){
 }
 
 $(document).ready(function(){
+	//Transforming the #slider div in an actual jquery UI slider.
 	$( "#slider" ).slider({
+		//Whenever the slider slides, change the background color.
 		slide: function(event,ui){
 			$('body').css("background-color",rgb2hex(ui.value*2.5,ui.value*2.5,ui.value*2.5));
 		}

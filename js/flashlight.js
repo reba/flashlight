@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$( "#slider" ).slider({
 		//Whenever the slider slides, change the background color.
 		slide: function(event,ui){
-			$('body').css("background-color",rgb2hex(ui.value*2.5,ui.value*2.5,ui.value*2.5));
+			$('body').css("background-color",rgb2hex(ui.value*2.55,ui.value*2.55,ui.value*2.55));
 		}
 	});
 });
