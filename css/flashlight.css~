@@ -1,0 +1,15 @@
+body {
+	margin:0;
+	background-color: #000000;
+}
+
+.slider-wrapper {
+	position:absolute;
+	width:100%;
+	bottom: 10px;
+}
+
+#slider {
+	position:relative;
+	margin: 0 20px;
+}

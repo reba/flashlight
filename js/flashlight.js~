@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	$( "#slider" ).slider({
+		slide: function(event,ui){
+			$('body').css("background-color",rgb(ui.value*2.5,ui.value*2.5,ui.value*2.5));
+		}
+	});
+});
