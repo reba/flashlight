@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "name": "Flashlight",
+  "description": "A simple flaslight app to aid you in your darkest hours!",
+  "icons": {
+    "16": "/img/icon-16.png",
+    "48": "/img/icon-48.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Reba",
+    "url": "http://wedonthaveaurlyet.com"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "pt": {
+      "description": "Um simples app de lanterna para te ajudar em suas horas mais escuras!",
+      "developer": {
+		"name": "Reba",
+		"url": "http://naotemosumaurlainda.com"
+      }
+    }
+  },
+  "default_locale": "en"
+}
